@@ -1,6 +1,6 @@
 # clean-node-api
-API em node utilizando Clean Architecture
 
+API em node utilizando Clean Architecture
 
 npm init -y
 
@@ -12,3 +12,9 @@ https://github.com/microsoft/TypeScript/wiki/Node-Target-Mapping
 yarn add -D ts-node
 
 yarn add -D nodemon
+
+yarn add -D prettier eslint
+
+npx eslint --init
+
+yarn add -D eslint-config-prettier
