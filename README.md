@@ -9,3 +9,6 @@ yarn add -D typescript @types/node
 tsc --init
 https://github.com/microsoft/TypeScript/wiki/Node-Target-Mapping
 
+yarn add -D ts-node
+
+yarn add -D nodemon
