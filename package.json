@@ -4,7 +4,8 @@
   "description": "API em node utilizando Clean Architecture",
   "main": "index.js",
   "scripts": {
-    "start:dev": "nodemon --watch 'src/' --exec 'ts-node src/index.ts' -e ts"
+    "start:dev": "nodemon --watch 'src/' --exec 'ts-node src/index.ts' -e ts",
+    "husky:prepare": "husky"
   },
   "keywords": [],
   "author": "",
@@ -15,6 +16,8 @@
     "eslint": "9.x",
     "eslint-config-prettier": "^9.1.0",
     "globals": "^15.8.0",
+    "husky": "^9.0.11",
+    "lint-staged": "^15.2.7",
     "nodemon": "^3.1.4",
     "prettier": "^3.3.2",
     "ts-node": "^10.9.2",

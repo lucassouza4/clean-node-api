@@ -17,4 +17,6 @@ yarn add -D prettier eslint
 
 npx eslint --init
 
-yarn add -D eslint-config-prettier
+yarn add -D eslint-config-prettier \*\* nao precisa
+
+yarn add -D husky lint-staged
