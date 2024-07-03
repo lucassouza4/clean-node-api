@@ -22,3 +22,7 @@ yarn add -D eslint-config-prettier \*\* nao precisa
 yarn add -D husky lint-staged
 
 yarn add -D jest @types/jest ts-jest
+
+yarn add -D tsconfig-paths
+
+yarn add -D tsc-alias
