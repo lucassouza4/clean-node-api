@@ -1,6 +1,6 @@
-import Person from ".";
+import Person from "@/person";
 
 it("should say my name", () => {
   const person = new Person();
-  expect(person.sayMyName()).toBe("Lucas");
+  expect(person.myName()).toBe("Lucas de Souza Silva");
 });
