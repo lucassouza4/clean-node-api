@@ -30,3 +30,5 @@ yarn add -D tsc-alias
 yarn add express
 
 yarn add -D @types/express
+
+yarn add -D git-commit-msg-linter
